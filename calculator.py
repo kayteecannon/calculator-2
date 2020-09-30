@@ -15,7 +15,12 @@ while True:
     if tokenized_input[0] == "q":
         break
     # Assign individual tokens to variables
+    operator = tokenized_input[0]
+    first_number = tokenized_input[1]
+    second_number = tokenized_input[2]
 
+    print(f"{operator}, {first_number}, {second_number}")
+    
     # Declare result variable
 
     # Evaluate input, return correct operation
