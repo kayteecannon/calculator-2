@@ -27,5 +27,8 @@ while True:
     # Evaluate input, return correct operation
     if operator == "+":
         result = add(num1, num2)
+
+    elif operator == "-":
+        result = subtract(num1, num2)
   
     print(result)
