@@ -10,9 +10,10 @@ while True:
 
     # Tokenize input
     tokenized_input = user_input.split(" ")
-    
-    # Check if first token is "q"
 
+    # Check if first token is "q"
+    if tokenized_input[0] == "q":
+        break
     # Assign individual tokens to variables
 
     # Declare result variable
