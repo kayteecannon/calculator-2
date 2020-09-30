@@ -16,11 +16,16 @@ while True:
         break
     # Assign individual tokens to variables
     operator = tokenized_input[0]
-    first_number = tokenized_input[1]
-    second_number = tokenized_input[2]
+    num1 = float(tokenized_input[1])
+    num2 = float(tokenized_input[2])
 
-    print(f"{operator}, {first_number}, {second_number}")
-    
+    print(f"{operator}, {num1}, {num2}")
+
     # Declare result variable
+    result = None
 
     # Evaluate input, return correct operation
+    if operator == "+":
+        result = add(num1, num2)
+  
+    print(result)
